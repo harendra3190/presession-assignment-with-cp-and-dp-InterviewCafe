@@ -1,0 +1,20 @@
+1. What was your first thought after reading the problem?
+Answer:- I first tried to understand the pattern in the input.
+2.What brute-force solution came to your mind?
+Answer:-I planned to use nested loops and check every possible case. For each element, I would compare it with every other element  and verify whether it satisfies the condition. This approach is simple to understand but performs many unnecessary checks.
+3. What is the time complexity of your solution?
+Answer:- Two nested loops → O(n²)
+4. Can you think of a better solution?
+Answer:-Yes. Instead of checking every possibility, I can use an optimized data structure or algorithm such as a HashMap, HashSet, binary search, sorting, dynamic programming, greedy approach, or sliding window to reduce unnecessary work.
+5. Where do you think optimization is possible?
+Answer:- Extra memory usage ,Nested loops
+
+Part 3: Complexity Quiz
+Concept	Expected Time Complexity
+Single Loop	O(n)
+Nested Loop	O(n²)
+Binary Search	O(log n)
+Merge Sort	O(n log n)
+HashMap Lookup	O(1) (Average Case)
+DFS Traversal	O(V + E)
+BFS Traversal	O(V + E)
